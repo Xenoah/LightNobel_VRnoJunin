@@ -23,7 +23,7 @@
 | 5 | [vr_rules.md](vr_rules.md) | VR内物理法則・死・痛覚・疲労・時間加速・通貨・チート罰則 |
 | 6 | [characters.md](characters.md) | 主要 / 準主要 / 敵対勢力キャラクター |
 | 7 | [factions.md](factions.md) | 住民派閥（帰還派 / 定住派 / 宗教化派 / 暴徒 / 運営擁護派） |
-| 8 | [bss_system.md](bss_system.md) | 掲示板BSSの仕様・UI・ニュース流入経路 |
+| 8 | [rss_system.md](rss_system.md) | 掲示板RSSの仕様・UI・ニュース流入経路 |
 | 9 | [plot_outline.md](plot_outline.md) | Act構成・主要ビート・伏線回収表 |
 | 10 | [episode_cards.md](episode_cards.md) | 各話カード（最低12話） |
 | 11 | [glossary.md](glossary.md) | 用語辞典 |
@@ -53,7 +53,7 @@
 | `PLOT-` | プロットビート | `PLOT-001` |
 | `EP-` | エピソード | `EP-001` |
 | `GLOSS-` | 用語 | `GLOSS-001` |
-| `BSS-` | BSS仕様 | `BSS-001` |
+| `RSS-` | RSS仕様 | `RSS-001` |
 | `GOV-` | ガバナンス | `GOV-001` |
 | `TEST-` | テストケース | `TEST-001` |
 

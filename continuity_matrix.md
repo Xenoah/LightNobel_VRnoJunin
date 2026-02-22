@@ -42,7 +42,10 @@
 | `RULE-051` | チャットログ | 音声→テキスト保存、プライバシー保護 | `vr_rules.md` | ✅ |
 | `RULE-060` | チート罰則 | βテストのため自動システムのみ稼働 | `vr_rules.md` | ✅ |
 | `RULE-061` | 運営不在 | チート対策は既存自動システムのみ | `vr_rules.md` | ✅ |
-| `RULE-070` | NFC無検閲 | ガバナンス凍結でフィルタ変更不能 | `bss_system.md` | ✅ |
+| `RULE-070` | NFC無検閲 | ガバナンス凍結でフィルタ変更不能 | `rss_system.md` | ✅ |
+| `RULE-080` | ECHOプロトコル | エアギャップを突破せず正規経路に寄生 | `technology.md` | ✅ |
+| `RULE-081` | 意識データ劣化 | 30日間格納で不可避、完全復元不可 | `technology.md` | ✅ |
+| `RULE-082` | AEGIS工作の範囲 | 7署名者中2名のAEGIS関与、残り2名は偶然 | `blockchain_governance.md` | ✅ |
 
 ---
 
@@ -104,6 +107,8 @@ RULE-014 (段階的発見)
 | `episode_cards.md` | `characters.md` | CHAR-001〜CHAR-013 |
 | `episode_cards.md` | `factions.md` | FACT-001〜FACT-005 |
 | `factions.md` | `vr_rules.md` | RULE-023, RULE-040〜042 |
-| `bss_system.md` | `blockchain_governance.md` | GOV-003（フィルタ変更不能） |
+| `rss_system.md` | `blockchain_governance.md` | GOV-003（フィルタ変更不能） |
+| `technology.md` | `blockchain_governance.md` | TECH-011（ECHO）→ GOV-SIG-04, GOV-SIG-06（AEGIS工作） |
+| `technology.md` | `characters.md` | TECH-012（劣化）→ CHAR-013（Pixel記憶喪失） |
 | `characters.md` | `blockchain_governance.md` | GOV-SIG-01〜07 |
 | `blockchain_governance.md` | `technology.md` | TECH-003〜009 |

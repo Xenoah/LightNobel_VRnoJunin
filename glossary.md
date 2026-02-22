@@ -14,6 +14,9 @@
 | `GLOSS-003` | 意識バインド・バグ | Consciousness Bind Bug | 技術 | NCB v2.1.0-rc3 で発生したバグ。意識状態がLethe Chainに格納される | `TECH-006` |
 | `GLOSS-004` | エクソダス | Exodus | 派閥 | 帰還派。技術的手段で内部から脱出を目指す | `FACT-001` |
 | `GLOSS-005` | エアギャップ | Air Gap | 技術 | ネットワークを物理的に隔離する設計手法。NCEの外部通信遮断の根拠 | `RULE-010` |
+| `GLOSS-041` | AEGIS（イージス） | Advanced Echelon for Geopolitical Intelligence and Security | 組織 | 複数国家出資の非公開先進防衛技術コンソーシアム。HVD技術の軍事転用を画策 | `CHAR-030` |
+| `GLOSS-042` | ECHOプロトコル | Embedded Channel for Hidden Operations | 技術 | AEGISが設計したステガノグラフィ秘密通信方式 | `TECH-011` |
+| `GLOSS-043` | CERBERUS計画 | Project CERBERUS | 計画 | AEGISによるガバナンス凍結利用・意識データ奪取計画のコードネーム | `RULE-082` |
 
 ## か行
 
@@ -22,7 +25,7 @@
 | `GLOSS-006` | 覚醒者 | The Awakened | 派閥 | VR世界での存在を「進化」と捉える宗教的派閥 | `FACT-004` |
 | `GLOSS-007` | ガバナンス凍結 | Governance Freeze | 技術/物語 | マルチシグの署名者不足により停止コマンドが実行不能になった状態 | `GOV-003` |
 | `GLOSS-008` | 気絶 | Knockout / KO | ゲーム | HPが0になった状態。10分後にセーフゾーンでリスポーン | `RULE-023` |
-| `GLOSS-009` | 逆転写 | Reverse Transcription | 技術 | 意識データ（スナップショット）を脳へ書き戻すプロセス | `TECH-007` |
+| `GLOSS-009` | 逆変換 | Reverse Mapping | 技術 | 意識データ（スナップショット）を脳へ書き戻すプロセス | `TECH-007` |
 
 ## さ行
 
@@ -37,7 +40,7 @@
 
 | ID | 用語 | 英語 | 分類 | 定義 | 参照 |
 |----|------|------|------|------|------|
-| `GLOSS-014` | 中央結節点 | Central Nexus | 場所 | Arcadiaの中心都市。BSS端末やBabel Towerがある | `world_overview.md` |
+| `GLOSS-014` | 中央結節点 | Central Nexus | 場所 | Arcadiaの中心都市。RSS端末やBabel Towerがある | `world_overview.md` |
 | `GLOSS-015` | 地下回廊 | The Undercroft | 場所 | 地下洞窟網。デバッグエリア残骸と保守端末が存在 | `world_overview.md` |
 
 ## な行
@@ -53,9 +56,9 @@
 | ID | 用語 | 英語 | 分類 | 定義 | 参照 |
 |----|------|------|------|------|------|
 | `GLOSS-019` | バーサーカーズ | Berserkers | 派閥 | 暴徒。力による支配を行う派閥 | `FACT-003` |
-| `GLOSS-020` | バベルの塔 | Babel Tower | 場所 | Central Nexus中心部の巨塔。BSS端末集約・議会場 | `LOC-001` |
+| `GLOSS-020` | バベルの塔 | Babel Tower | 場所 | Central Nexus中心部の巨塔。RSS端末集約・議会場 | `LOC-001` |
 | `GLOSS-021` | バリデーター | Validator | 技術 | Lethe Chain上のPBFT合意に参加するノード。全21基 | `GOV-001` |
-| `GLOSS-022` | BSS | Babel Station System | システム | VR内掲示板システム | `BSS-001` |
+| `GLOSS-022` | RSS | Relay Station System | システム | VR内掲示板システム | `RSS-001` |
 | `GLOSS-023` | PBFT | Practical Byzantine Fault Tolerance | 技術 | Lethe Chainの合意アルゴリズムの基盤 | `GOV-001` |
 | `GLOSS-024` | HVD | Human Virtualization Device | 技術 | 五感フルダイブVRデバイス | `TECH-003` |
 | `GLOSS-025` | 人格ハッシュ | Personality Hash | 技術 | 意識データの同一性検証用ハッシュ値。複製防止 | `RULE-009` |
@@ -80,7 +83,7 @@
 
 | ID | 用語 | 英語 | 分類 | 定義 | 参照 |
 |----|------|------|------|------|------|
-| `GLOSS-032` | NFC | News Feed Crawler | システム | 外部ニュースを自動収集しBSSに配信するクローラ | `BSS-003` |
+| `GLOSS-032` | NFC | News Feed Crawler | システム | 外部ニュースを自動収集しRSSに配信するクローラ | `RSS-003` |
 | `GLOSS-033` | NCB | Neural Consciousness Bridge | 技術 | 神経信号とVRコマンドの双方向変換モジュール | `TECH-005` |
 | `GLOSS-034` | AMS | Arcadia Maintenance Service | 技術 | 保守API | `TECH-009` |
 | `GLOSS-035` | JWT | JSON Web Token | 技術 | 認証トークン形式。保守APIの認証に使用 | `GOV-006` |
@@ -89,6 +92,8 @@
 | `GLOSS-038` | ARCADIA_EMERGENCY_HALT | ─ | コマンド | 正規の緊急停止コマンド。5-of-7マルチシグ必要 | `GOV-003` |
 | `GLOSS-039` | MAINTENANCE_OVERRIDE_HALT | ─ | コマンド | 保守用代替停止コマンド。バリデーター14/21確認必要 | `GOV-005` |
 | `GLOSS-040` | 赤名マーク | Red Name / PK Flag | ゲーム | PvPエリア外でPKした者に72時間付与される警告表示 | `RULE-060` |
+| `GLOSS-044` | 意識データ劣化 | Consciousness Data Degradation | 技術/医学 | 長期格納によるビット反転の蓄積で意識データが変質。帰還後の記憶欠損の原因 | `TECH-012` |
+| `GLOSS-045` | デジタルゴースト | Digital Ghost | 概念 | AEGISがコピーした断片的人格パターンが稼働している可能性の暗示 | `OQ-TECH-003` |
 
 ---
 
@@ -104,3 +109,4 @@
 | 「浮遊者」 | The Awakened の信者 | 「あの浮遊者たち、最近過激になってない？」 |
 | 「鉄の法」 | Berserkers の支配ルール | 「Crimson Peaksは鉄の法だから近づくな」 |
 | 「ミラーバック」 | 帰還のこと（鏡に映った世界から戻る比喩） | 「ミラーバックできるって信じてる」 |
+| 「エコー落ち」 | Advocate発覚後、Loyalists元メンバーが精神的に参ること | 「あいつエコー落ちからまだ立ち直れてない」 |
