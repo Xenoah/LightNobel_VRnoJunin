@@ -46,6 +46,9 @@
 | `RULE-080` | ECHOプロトコル | エアギャップを突破せず正規経路に寄生 | `technology.md` | ✅ |
 | `RULE-081` | 意識データ劣化 | 30日間格納で不可避、完全復元不可 | `technology.md` | ✅ |
 | `RULE-082` | AEGIS工作の範囲 | 7署名者中2名のAEGIS関与、残り2名は偶然 | `blockchain_governance.md` | ✅ |
+| `RULE-090` | Advocate偏報グラディエント | EP-001→好感度稼ぎ、EP-003→安心、EP-005→嘘、EP-007→乖離、EP-009→崩壊 | `premise.md` | ✅ |
+| `RULE-091` | 現実カットイン配置 | ①EP-003、②EP-008のみ。序盤（EP-001・002）には一切なし | `episode_cards.md` | ✅ |
+| `RULE-092` | トーン段階的下降 | EP-001(★5)→EP-007(★2)→EP-012(☆)。逆転なし | `premise.md` | ✅ |
 
 ---
 
@@ -112,3 +115,5 @@ RULE-014 (段階的発見)
 | `technology.md` | `characters.md` | TECH-012（劣化）→ CHAR-013（Pixel記憶喪失） |
 | `characters.md` | `blockchain_governance.md` | GOV-SIG-01〜07 |
 | `blockchain_governance.md` | `technology.md` | TECH-003〜009 |
+| `premise.md` | `episode_cards.md` | 感情カーブ→各話トーンタグ（RULE-090/092） |
+| `episode_cards.md` | `plot_outline.md` | PLOT-002「陽だまりの場所」→EP-002同名 |
