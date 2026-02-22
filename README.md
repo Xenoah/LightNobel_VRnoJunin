@@ -8,36 +8,75 @@
 
 ## 概要
 
-次世代フルダイブVRデバイス **HVD（Human Virtualization Device）** のクローズドβテスト中、致命的バグにより約1万人のテスターの意識がブロックチェーン分散サーバーへ格納された。現実世界ではパニックが広がるが、当事者たちはそれに気づかず仮想世界で遊び続ける――やがて真実を知った主人公たちは、内部から脱出する方法を模索する。
+次世代フルダイブVRデバイス **HVD（Human Virtualization Device）** のクローズドβテスト中、致命的バグにより48人のテスターの意識がブロックチェーン分散サーバーへ格納された。現実世界ではパニックが広がるが、当事者たちはそれに気づかず仮想世界で遊び続ける――やがて真実を知った主人公たちは、内部から脱出する方法を模索する。
 
 ---
 
-## ファイル構成
+## ディレクトリ構成
 
-| # | ファイル | 内容 |
-|---|---------|------|
-| 1 | [premise.md](premise.md) | 企画1ページ要約・テーマ・読者体験 |
-| 2 | [world_overview.md](world_overview.md) | 世界の前提・社会状況・マスタータイムライン |
-| 3 | [technology.md](technology.md) | HVD / カプセル / 神経I-O / VR基盤 / LLM制約 / ブロックチェーン格納 |
-| 4 | [blockchain_governance.md](blockchain_governance.md) | A案核心：停止権限凍結・マルチシグ・署名者・閾値 |
-| 5 | [vr_rules.md](vr_rules.md) | VR内物理法則・死・痛覚・疲労・時間加速・通貨・チート罰則 |
-| 6 | [characters.md](characters.md) | 主要 / 準主要 / 敵対勢力キャラクター |
-| 7 | [factions.md](factions.md) | 住民派閥（帰還派 / 定住派 / 宗教化派 / 暴徒 / 運営擁護派） |
-| 8 | [rss_system.md](rss_system.md) | 掲示板RSSの仕様・UI・ニュース流入経路 |
-| 9 | [plot_outline.md](plot_outline.md) | Act構成・主要ビート・伏線回収表 |
-| 10 | [episode_cards.md](episode_cards.md) | 各話カード（最低12話） |
-| 11 | [glossary.md](glossary.md) | 用語辞典 |
-| 12 | [continuity_matrix.md](continuity_matrix.md) | 整合性台帳・ルール一覧・例外・変更禁止事項 |
-| 13 | [open_questions.md](open_questions.md) | 未決事項・提案解・開示タイミング |
-| 14 | [consistency_tests.md](consistency_tests.md) | 整合性テストケース（30項目以上） |
+```
+LightNobel_VRnoJunin/
+├── README.md                           ← 本ファイル
+│
+├── bible/                              ← 設定資料（Story Bible）
+│   ├── premise.md                      ← 企画要約・テーマ・読者体験・恐怖の三軸
+│   ├── world_overview.md               ← 世界の前提・社会状況・タイムライン
+│   ├── characters.md                   ← キャラクター設定
+│   ├── factions.md                     ← 派閥
+│   ├── technology.md                   ← 技術設定（HVD/NCB/NCE/ECHO/AEGIS）
+│   ├── blockchain_governance.md        ← ガバナンス・マルチシグ
+│   ├── vr_rules.md                     ← VR内ルール
+│   ├── rss_system.md                   ← RSS掲示板仕様
+│   └── glossary.md                     ← 用語集
+│
+├── plot/                               ← プロット・構成
+│   ├── plot_outline.md                 ← Act構成・主要ビート・伏線
+│   └── episode_cards.md                ← 各話カード（12話）
+│
+├── qa/                                 ← 品質管理
+│   ├── continuity_matrix.md            ← 整合性台帳
+│   ├── consistency_tests.md            ← 整合性テスト
+│   └── open_questions.md               ← 未決事項
+│
+└── novel/                              ← 本文（執筆用）
+    ├── ep001.md                        ← ✅ 第一話「ログイン ── 新世界の扉」
+    ├── ep002.md                        ← ✅ 第二話「陽だまりの場所」
+    ├── ep003.md                        ← ✅ 第三話「囚われの告白」
+    ├── ep004.md                        ← ✅ 第四話「分裂」
+    ├── ep005.md                        ← ✅ 第五話「電子の知性」
+    ├── ep006.md                        ← ✅ 第六話「地下回廊」
+    ├── ep007.md                        ← ✅ 第七話「暗号解読」
+    ├── ep008.md                        ← ✅ 第八話「凍結の真相」
+    ├── ep009.md                        ← ✅ 第九話「最後の交渉」
+    ├── ep010.md                        ← ✅ 第十話「同時多発作戦」
+    ├── ep011.md                        ← ✅ 第十一話「最後の鍵」
+    └── ep012.md                        ← ✅ 第十二話「帰還」
+```
+
+### 執筆進捗
+
+| Phase | EP | タイトル | 状態 |
+|-------|-----|---------|------|
+| 1: 光の導入 | 001 | ログイン ── 新世界の扉 | ✅ |
+| | 002 | 陽だまりの場所 | ✅ |
+| 2: 衝撃と楽観 | 003 | 囚われの告白 | ✅ |
+| | 004 | 分裂 | ✅ |
+| 3: 希望の影 | 005 | 電子の知性 | ✅ |
+| | 006 | 地下回廊 | ✅ |
+| 4: 不信と崩壊 | 007 | 暗号解読 | ✅ |
+| | 008 | 凍結の真相 | ✅ |
+| 5: 転落 | 009 | 最後の交渉 | ✅ |
+| | 010 | 同時多発作戦 | ✅ |
+| | 011 | 最後の鍵 | ✅ |
+| | 012 | 帰還 | ✅ |
 
 ---
 
 ## 使い方
 
-1. **本文執筆前**に全ファイルを通読し、矛盾がないか確認。
+1. **本文執筆前**に `bible/` の全ファイルを通読し、矛盾がないか確認。
 2. **執筆時**は `RULE-xxx` / `TECH-xxx` / `CHAR-xxx` 等のIDで設定を参照。
-3. **執筆後**に `consistency_tests.md` のテストケースを走らせて矛盾を検出。
+3. **執筆後**に `qa/consistency_tests.md` のテストケースを走らせて矛盾を検出。
 4. **ASSUMPTION:** / **OPEN_QUESTION:** タグは確定するまで変更禁止。確定したら本文に反映。
 
 ---
@@ -45,7 +84,7 @@
 ## ID体系
 
 | 接頭辞 | 対象 | 例 |
-|--------|------|----|
+|--------|------|-----|
 | `RULE-` | 世界ルール | `RULE-001` |
 | `TECH-` | 技術設定 | `TECH-001` |
 | `CHAR-` | キャラクター | `CHAR-001` |

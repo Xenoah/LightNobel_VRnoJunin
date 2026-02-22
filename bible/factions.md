@@ -9,14 +9,14 @@
 
 | ID | 派閥名 | 日本語名 | リーダー | 構成員数（最盛期） | 拠点 | 主張 |
 |----|--------|---------|---------|-----------------|------|------|
-| `FACT-001` | Exodus | 帰還派（エクソダス） | Ren (`CHAR-001`) → 合議制 | 約20 | The Undercroft / Central Nexus | 内部から脱出手段を構築して帰還する |
-| `FACT-002` | Settlers | 定住派（セトラーズ） | Bastion (`CHAR-004`) | 約28 | Verdant Expanse | VR世界に適応し、永続的な社会を構築する |
-| `FACT-003` | Berserkers | 暴徒（バーサーカーズ） | Fenris (`CHAR-005`) | 約8 | Crimson Peaks / Obsidian Citadel | 力による支配。リソースの略奪 |
-| `FACT-004` | The Awakened | 覚醒者（アウェイクンド） | Oracle (`CHAR-006`) | 約12 | Ethereal Gardens / Sanctuary | VR世界は「新たな存在形態」であり、帰還は不要 |
-| `FACT-005` | Loyalists | 運営擁護派（ロイヤリスト） | Advocate (`CHAR-012`) | 約7 | Central Nexus（Babel Tower周辺） | 運営を信じて待つ。外部からの救出を期待 |
-| `FACT-006` | Neutrals | 中立 / 無所属 | なし | 約25 | 各地に分散 | どの派閥にも属さない個人 |
+| `FACT-001` | Exodus | 帰還派（エクソダス） | Ren (`CHAR-001`) → 合議制 | 約10 | The Undercroft / Central Nexus | 内部から脱出手段を構築して帰還する |
+| `FACT-002` | Settlers | 定住派（セトラーズ） | Bastion (`CHAR-004`) | 約14 | Verdant Expanse | VR世界に適応し、永続的な社会を構築する |
+| `FACT-003` | Berserkers | 暴徒（バーサーカーズ） | Fenris (`CHAR-005`) | 約5 | Crimson Peaks / Obsidian Citadel | 力による支配。リソースの略奪 |
+| `FACT-004` | The Awakened | 覚醒者（アウェイクンド） | Oracle (`CHAR-006`) | 約6 | Ethereal Gardens / Sanctuary | VR世界は「新たな存在形態」であり、帰還は不要 |
+| `FACT-005` | Loyalists | 運営擁護派（ロイヤリスト） | Advocate (`CHAR-012`) | 約4 | Central Nexus（Babel Tower周辺） | 運営を信じて待つ。外部からの救出を期待 |
+| `FACT-006` | Neutrals | 中立 / 無所属 | なし | 約9 | 各地に分散 | どの派閥にも属さない個人 |
 
-> 合計: 100名。少数なため全員が顔見知り。派閥の境界は曖昧で、所属を変える人も多い。
+> 合計: 48名。少数なため全員が顔見知り。派閥の境界は曖昧で、所属を変える人も多い。
 
 ---
 
@@ -29,9 +29,9 @@
 | 結成時期 | Day 5（派閥としての正式結成。それ以前は個人の動き） |
 | 理念 | 技術的手段で内部から脱出する。暴力は最終手段 |
 | 組織構造 | 当初はRen中心 → Day 15以降は合議制（技術班/情報班/防衛班の3部門） |
-| 技術班 | 保守API解析、権限昇格、ブロックチェーン分析（約8名のエンジニア） |
-| 情報班 | RSS分析、NCE活用、外部ニュースの解釈（約4名） |
-| 防衛班 | Berserkers からの攻撃への防衛、拠点警備（約8名） |
+| 技術班 | 保守API解析、権限昇格、ブロックチェーン分析（約4名のエンジニア） |
+| 情報班 | RSS分析、NCE活用、外部ニュースの解釈（約2名） |
+| 防衛班 | Berserkers からの攻撃への防衛、拠点警備（約4名） |
 | 課題 | 技術者の絶対数不足。非技術者の信頼獲得。進捗が見えにくいことへの不満 |
 
 ### FACT-002: Settlers（定住派）
